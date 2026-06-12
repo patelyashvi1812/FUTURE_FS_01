@@ -297,8 +297,7 @@ function createPlaceholderImage(elementId, color1, color2, text) {
 
 // Create placeholder images on load
 window.addEventListener('load', () => {
-    createPlaceholderImage('profileImage', '#667eea', '#764ba2', 'Krisha');
-    createPlaceholderImage('aboutImage', '#f093fb', '#f5576c', 'About Me');
+ 
     createPlaceholderImage('project1Image', '#4facfe', '#00f2fe', 'Project 1');
     createPlaceholderImage('project2Image', '#43e97b', '#38f9d7', 'Project 2');
     createPlaceholderImage('project3Image', '#fa709a', '#fee140', 'Project 3');
@@ -334,4 +333,4 @@ window.addEventListener('scroll', () => {
     }
 });
 
-console.log('🎨 Portfolio loaded successfully! Made with ❤️ for Krisha');
+console.log('🎨 Portfolio loaded successfully! Made with ❤️ for Yashvi');
